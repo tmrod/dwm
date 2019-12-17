@@ -14,6 +14,7 @@ Patches I've added
 * [systray](https://dwm.suckless.org/patches/systray/)
 * [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 * [hide vacant tags](https://dwm.suckless.org/patches/hide_vacant_tags/)
+* I've updated the function `incnmaster` to maintain at least one master window. This prevents wraparound when decrementing the number of master windows.
 
 See `config.def.h` for keybindings, color settings, font sizes, etc.
 
