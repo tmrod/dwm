@@ -16,7 +16,11 @@ Patches I've added
 * [hide vacant tags](https://dwm.suckless.org/patches/hide_vacant_tags/)
 * I've updated the function `incnmaster` to maintain at least one master window. This prevents wraparound when decrementing the number of master windows.
 
-See `config.def.h` for keybindings, color settings, font sizes, etc.
+See `config.def.h` for color settings, font sizes, etc.
+
+Keybindings are set in `keys.h`.
+An example config file is found in `keys.h.example`.
+To build, you'll need to copy this over to `keys.h`.
 
 Requirements
 ------------

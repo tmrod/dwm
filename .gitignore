@@ -53,6 +53,7 @@ dkms.conf
 
 # real config file
 config.h
+keys.h
 
 # executable
 dwm
