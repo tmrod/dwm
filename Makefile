@@ -19,7 +19,7 @@ options:
 
 ${OBJ}: config.h config.mk
 
-config.h:
+config.h: colors.h keys.h
 	cp config.def.h $@
 
 dwm: ${OBJ}

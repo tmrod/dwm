@@ -22,6 +22,9 @@ Keybindings are set in `keys.h`.
 An example config file is found in `keys.h.example`.
 To build, you'll need to copy this over to `keys.h`.
 
+Similar to the keybindings, colors are set in `colors.h`.
+An example config file is found in `colors.h.example`.
+
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
